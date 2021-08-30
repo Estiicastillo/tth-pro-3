@@ -1,0 +1,284 @@
+header{
+    background-color:rgb(44, 59, 71);
+    padding:15px;
+    text-align: center;
+    
+    }
+
+   
+    
+legend{
+font-family: 'Roboto', sans-serif ;
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 24px;
+
+
+
+}
+
+ 
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+label,p{
+color: rgb(197, 207, 218);
+
+}
+
+    header h1 {
+    color: white;
+    
+    
+    }
+
+    .h2 {
+    padding-left: 15px;
+
+    }
+
+
+.h2h2{
+
+    padding-top: 20px;
+}
+    .continer {
+     padding: 5px;
+    }
+
+
+    fieldset{
+
+        border:none;
+    }
+
+    textarea{
+        content: inherit;
+        max-width: 96%;
+    }
+
+    .section-1{
+ text-align: center;
+ margin-bottom: 35px;
+
+    }
+     .border{
+    height: auto;
+    width: 90%;
+    border-top: 4px solid rgb(44, 59, 71);
+    border-bottom: 2px solid rgb(44, 59, 71) ;
+    padding: 2px;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    margin: auto;
+    }
+    .section-2{
+        margin: 7px;
+        
+
+ }
+.top-form-part label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+   
+}
+
+.top-form-part{
+    padding-left: 15px;
+    padding-right: 10px;
+   max-width: 85%;
+
+}
+
+select[id="state"] {
+    width: 99.5%;
+}
+
+.top-form-part input,
+.top-form-part select {
+width: 100%;
+padding: 20px;
+padding-left: 15px;
+padding-right: 7px;
+border-radius: 4px;
+border:none;
+background: rgb(227, 227, 228);
+
+}
+
+
+.zip{
+    max-width: 45%;
+
+}
+
+
+.top-form-part select {
+
+width: 107%;
+color: rgb(154, 155, 156);
+
+}
+
+.container-2 input {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+ 
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+textarea{
+    width: 95%;
+    padding: 15px;
+    border-radius: 4px;
+    padding-bottom: 37px;
+    border:none;
+    margin-top: 5px;
+    background: rgb(236, 236, 236);
+    }
+
+input{
+text-align: right;
+
+
+}
+ input:focus{
+text-align: left;
+border: solid 2px lightblue;
+
+ }
+
+
+hr{
+    border: solid black 1px;
+    width: 90%;
+    margin-top: 7%;
+    
+    box-sizing: content-box;
+}
+
+
+.bottom-form-part{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 39px;
+
+}
+
+.bottom-form-part label{
+   
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-left: 5px;
+
+}
+
+
+  
+   
+      
+      
+
+
+
+button {
+width: 100%;
+background: lightseagreen;
+border: none;
+border-radius: 7px;
+color: white;
+padding: 19px 0;
+font-size: 27px;
+margin-top: 30px;
+
+}
+.copy {
+text-align: center;
+
+}
+
+
+@media (min-width: 768px){
+  
+      
+    form {
+        padding-top: 13px;
+        margin: auto;
+    }
+
+    .top-form-part label {
+        
+        flex-basis: 25%;
+        align-self: center;
+        
+    }
+
+    .continer{
+
+    width: 50%;
+    margin: auto;
+    
+    }
+
+    
+
+    .input-section{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   max-width: 100%;
+   margin-top: 4%;
+   margin-bottom: 2%;
+   
+   
+
+
+    }
+
+    .top-form-part {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .bottom-form-part{
+        max-width: 600px;
+        margin: 0 auto;
+
+      }
+
+      #zipcode{
+      width:40%;
+      margin-right:47%;
+
+      }
+
+.contactinfo{
+padding-top: 50px;
+
+}
+
+.border{
+max-width:37%;
+
+}
+
+  
+      
+  .hr2{
+
+width: 40%;
+margin-bottom: 2%;
+margin-top: 3%;
+}
+  }
+
