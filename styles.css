@@ -42,6 +42,7 @@ color: rgb(197, 207, 218);
     }
 
 
+
 .h2h2{
 
     padding-top: 20px;
@@ -118,6 +119,10 @@ background: rgb(227, 227, 228);
 
 }
 
+.zip-section{
+width: 50%;
+
+}
 
 .top-form-part select {
 
@@ -151,7 +156,9 @@ text-align: right;
 
 
 }
- input:focus{
+ input:focus,
+ select:focus,
+textarea:focus{
 text-align: left;
 border: solid 2px lightblue;
 
