@@ -112,17 +112,12 @@ border:none;
 background: rgb(227, 227, 228);
 
 }
-
-
-.zip{
-    max-width: 55%;
-
+#zipcode{
+     max-width: 50%;
 }
 
-.zip-section{
-width: 50%;
 
-}
+
 
 .top-form-part select {
 
@@ -237,9 +232,10 @@ text-align: center;
     
     }
 
-    
+   
 
-    .input-section{
+
+    .input-section  {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -263,10 +259,13 @@ text-align: center;
 
       }
 
-      #zipcode{
-      width:53%;
-      margin-right:38%;
-
+      
+      .zip-section{
+        flex-direction: row;
+        display: flex;
+        width: 76%;
+        margin-top: 4%;
+       
       }
 
 .contactinfo{
