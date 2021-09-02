@@ -258,7 +258,11 @@ text-align: center;
         margin: 0 auto;
 
       }
+      
 
+      #zipcode{
+        max-width: 25%;
+   }
       
       .zip-section{
         flex-direction: row;
